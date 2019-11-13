@@ -6,11 +6,7 @@ import { Icon, Label } from 'semantic-ui-react'
 import { Card, CardBody, CardFooter } from 'reactstrap';
 import 'semantic-ui-css/semantic.min.css';
 import { Button } from 'semantic-ui-react';
-import estateLogo from '../../assest/images/icon-emlak.png';
-
-// import DropDown from './DropDown';
-
-
+import estateLogo from '../../assest/images/sell.svg';
 class NavBar extends React.Component {
     constructor(props) {
         super(props);
@@ -28,7 +24,7 @@ class NavBar extends React.Component {
                     <a className="estate-home" href="" rel="noopener noreferrer" target="_blank">
                         <span className="left">
 
-                            <b> <img src={estateLogo} alt="Preview selected" style={{ width: "35px", color: "white" }} />Emlak </b> Asistanım
+                            <b> <embed src={estateLogo} alt="Preview selected" style={{ width: "35px", color: "white" }} />Emlak </b> Asistanım
                     </span>
                     </a>
                     <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-around", flexGrow: 3 }} >
@@ -69,8 +65,7 @@ class NavBar extends React.Component {
                     {!this.props.isDisabled &&
                         <div className="emergency">
                             <Button primary>Giriş</Button>
-                            {/* <button style={{ cursor: "pointer", border: "none", borderRadius: "2px" }} id="emergencyButton" className="emergencyButton" onClick={() => this.emergencyCallButton()} value={'EMERGENCY'} >Giriş</button> */}
-                        </div>
+                         </div>
                     }
 
                 </div>
