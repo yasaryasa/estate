@@ -5,10 +5,10 @@ const Footer = () => {
     return (
         <>
             <footer className="footer c-bg-darkBlue u-pv3 u-clearfix">
-                <div class="row">
-                   <div class="col-xs-6 col-sm">
-                        <section class="menu u-pullLeft u-mr1 u-mb3 u-xs-hide">
-                            <h3 class="u-mb1 u-">Menü</h3>
+                <div className="row">
+                   <div className="col-xs-6 col-sm">
+                        <section className="menu u-pullLeft u-mr1 u-mb3 u-xs-hide">
+                            <h3 className="u-mb1 u-">Menü</h3>
                             <ul>
                                 <li><a href="">Ana Sayfa</a></li>
                                 <li><a href="">Özellikler</a></li>
@@ -16,9 +16,9 @@ const Footer = () => {
                             </ul>
                         </section>
                     </div>
-                    <div class="col-xs-6 col-sm">
-                        <section class="menu u-pullLeft u-mr1 u-mb3 u-xs-hide">
-                            <h3 class="u-mb1 u-">Yasal Bilgiler</h3>
+                    <div className="col-xs-6 col-sm">
+                        <section className="menu u-pullLeft u-mr1 u-mb3 u-xs-hide">
+                            <h3 className="u-mb1 u-">Yasal Bilgiler</h3>
                             <ul>
                                 <li><a href="">Gizlilik Sözleşmesi</a></li>
                                 <li><a href="">Kullanım Sözleşmesi</a></li>
@@ -26,9 +26,9 @@ const Footer = () => {
                             </ul>
                         </section>
                    </div>
-                    <div class="col-xs-6 col-sm">
-                        <section class="menu u-pullLeft u-mr1 u-mb3 u-xs-hide">
-                            <h3 class="u-mb1 u-">Dosyalar</h3>
+                    <div className="col-xs-6 col-sm">
+                        <section className="menu u-pullLeft u-mr1 u-mb3 u-xs-hide">
+                            <h3 className="u-mb1 u-">Dosyalar</h3>
                             <ul>
                                 <li><a href="">Uzaktan Yardım (Alpemix)</a></li>
                                 <li><a href="">Yararlı Dosyalar</a></li>
@@ -36,9 +36,9 @@ const Footer = () => {
                             </ul>
                         </section>
                     </div>
-                    <div class="col-xs-6 col-sm">
-                        <section class="menu u-pullLeft u-mr1 u-mb3 u-xs-hide">
-                            <h3 class="u-mb1 u-">Asistanım</h3>
+                    <div className="col-xs-6 col-sm">
+                        <section className="menu u-pullLeft u-mr1 u-mb3 u-xs-hide">
+                            <h3 className="u-mb1 u-">Asistanım</h3>
                             <ul>
                                 <li><a href="Hakkinda.aspx">Hakkımızda</a></li>
                                 <li><a href="" target="_blank" rel="nofollow">Facebook</a></li>
