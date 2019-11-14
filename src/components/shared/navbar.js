@@ -7,6 +7,7 @@ import { Card, CardBody, CardFooter } from 'reactstrap';
 import 'semantic-ui-css/semantic.min.css';
 import { Button } from 'semantic-ui-react';
 import estateLogo from '../../assest/images/sell.svg';
+import { Link } from 'react-router-dom';
 class NavBar extends React.Component {
     constructor(props) {
         super(props);
@@ -31,12 +32,10 @@ class NavBar extends React.Component {
                         <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-around", flexGrow: 1 }}>
                             <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-around", flexGrow: 1 }}>
                                 <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-around", flexGrow: 1 }}>
-
-                                    <Label style={{ backgroundColor: "#632A86", color: "white" }}>Özellikler</Label>
+                                    <Link style={{ backgroundColor: "#632A86", color: "white" }} to="/home">Özellikler</Link>
                                 </div>
                                 <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-around", flexGrow: 1 }}>
-
-                                    <Label style={{ backgroundColor: "#632A86", color: "white" }}>SSS Sorular</Label>
+                                    <Link style={{ backgroundColor: "#632A86", color: "white" }} to="/home">SSS Sorular</Link>
                                 </div>
                             </div>
 
@@ -44,15 +43,12 @@ class NavBar extends React.Component {
                         <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-around", flexGrow: 4 }}>
                             <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-around", flexGrow: 2 }}>
                                 <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-around", flexGrow: 2 }}>
-
-                                    <Label style={{ backgroundColor: "#632A86", color: "white" }}>İletişim</Label>
+                                    <Link style={{ backgroundColor: "#632A86", color: "white" }} to="/home">İletişim</Link>
                                 </div>
                                 <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-around", flexGrow: 0 }}>
-
-                                    <Label style={{ backgroundColor: "#632A86", color: "white" }}>Uygulamayı Yükle</Label>
+                                    <Link style={{ backgroundColor: "#632A86", color: "white" }} to="/home">Uygulamayı Yükle</Link>
                                 </div>
                                 <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-around", flexGrow: 0 }}>
-
                                     <Button primary>Ücretsiz Dene</Button>
                                 </div>
 
@@ -65,11 +61,11 @@ class NavBar extends React.Component {
                     {!this.props.isDisabled &&
                         <div className="emergency">
                             <Button primary>Giriş</Button>
-                         </div>
+                        </div>
                     }
 
                 </div>
-              
+
             </>
         );
     }

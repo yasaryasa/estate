@@ -26,6 +26,7 @@
   }
   .main-footer .footer-left .copy {
     font-weight: 700;
+    color:black;
   }
   .main-footer .footer-left a {
     font-weight: 700;
@@ -54,4 +55,30 @@
     margin-right: 5px;
   }
  
-  
+  .u-pv3 {
+    padding-bottom: 3rem !important;
+}
+.u-pv3 {
+    padding-top: 3rem !important;
+}
+.u-clearfix {
+}
+.c-bg-darkBlue {
+    color: rgb(255, 255, 255);
+}
+.c-bg-darkBlue {
+    background-color: rgb(52, 80, 102) !important;
+}
+footer {
+    font: inherit;
+    margin: 0px;
+    padding: 0px;
+    border: 0px currentColor;
+    border-image: none;
+    vertical-align: baseline;
+    font-size-adjust: inherit;
+    font-stretch: inherit;
+}
+footer {
+    display: block;
+}
