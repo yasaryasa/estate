@@ -6,7 +6,7 @@ import { Icon, Label } from 'semantic-ui-react'
 import { Card, CardBody, CardFooter } from 'reactstrap';
 import 'semantic-ui-css/semantic.min.css';
 import { Button } from 'semantic-ui-react';
-import estateLogo from '../../assest/images/sell.svg';
+import estateLogo from '../../assest/images/images-estate.jpg';
 import { Link } from 'react-router-dom';
 class NavBar extends React.Component {
     constructor(props) {

@@ -22,7 +22,8 @@ body {
     height: 40px;
     width: 300px;
     border: 0 solid transparent;
-    background-color: #630486;
+    /* background-color: #630486; */
+    background-color: white;
     color: #FFF;
     padding-right: 15px;
     padding-left: 15px;
@@ -48,6 +49,7 @@ body {
   
   .navbar .estate-home .left {
     font-size: 20px;
+    color:black;
     text-align: center;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding: 0 15px;
