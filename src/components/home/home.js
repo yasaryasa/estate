@@ -20,7 +20,6 @@ class home extends Component {
     }
 
     componentDidMount() {
-
     }
     render() {
         return (
@@ -35,57 +34,49 @@ class home extends Component {
                 </div>
                 <div className="flex-container" >
                     <div >
-                    <Card className="card" style={{border:"1px solid red"}} >
-                    <CardBody className="card-body">
-                    
-                        <p>
-                            <span style={{ fontSize: 17 }}></span> <br />
-                            <small>Windows</small>
-                            <img style={{ width: "63%", color: "white", height: "90px", position: "relative" }} src={computerIcon} className="img-circle" alt=""></img> 
-                        </p>
-                    </CardBody>
-                    <CardFooter>
-                    <Button>Videoyu İzle</Button>
-                    </CardFooter>
-                </Card>
+                        <Card className="card" style={{ border: "1px solid red" }} >
+                            <CardBody className="card-body">
+                                <p>
+                                    <span style={{ fontSize: 17 }}></span> <br />
+                                    <small>Windows</small>
+                                    <img style={{ width: "63%", color: "white", height: "90px", position: "relative" }} src={computerIcon} className="img-circle" alt=""></img>
+                                </p>
+                            </CardBody>
+                            <CardFooter>
+                                <Button>Videoyu İzle</Button>
+                            </CardFooter>
+                        </Card>
                     </div>
                     <div >
-                    <Card className="card"  style={{border:"1px solid orange"}} >
-                    <CardBody className="card-body">
-                      
-                        <p>
-                            <span style={{ fontSize: 17 }}></span> <br />
-                            <small>WEB</small>
-                            <img style={{ width: "80%", color: "white", height: "80px", position: "relative" }} src={webComputerIcon} className="img-circle" alt=""></img> 
-                        </p>
-                    </CardBody>
-                    <CardFooter>
-                    <Button>Videoyu İzle</Button>
-                    </CardFooter>
-                </Card>
+                        <Card className="card" style={{ border: "1px solid orange" }} >
+                            <CardBody className="card-body">
+                                <p>
+                                    <span style={{ fontSize: 17 }}></span> <br />
+                                    <small>WEB</small>
+                                    <img style={{ width: "80%", color: "white", height: "80px", position: "relative" }} src={webComputerIcon} className="img-circle" alt=""></img>
+                                </p>
+                            </CardBody>
+                            <CardFooter>
+                                <Button>Videoyu İzle</Button>
+                            </CardFooter>
+                        </Card>
                     </div>
                     <div >
-                    <Card className="card"  style={{border:"1px solid blue"}} >
-                    <CardBody className="card-body">
-                        <p>
-                            <span style={{ fontSize: 17 }}></span> <br />
-                            <small>Mobil</small>
-                            <img style={{ width: "80%", color: "white", height: "90px", position: "relative" }} src={phoneIcon} className="img-circle" alt=""></img> 
-                      
-                        </p>
-                    </CardBody>
-                    <CardFooter>
-                    <Button>Videoyu İzle</Button>
-                    </CardFooter>
-                </Card>
+                        <Card className="card" style={{ border: "1px solid blue" }} >
+                            <CardBody className="card-body">
+                                <p>
+                                    <span style={{ fontSize: 17 }}></span> <br />
+                                    <small>Mobil</small>
+                                    <img style={{ width: "80%", color: "white", height: "90px", position: "relative" }} src={phoneIcon} className="img-circle" alt=""></img>
+
+                                </p>
+                            </CardBody>
+                            <CardFooter>
+                                <Button>Videoyu İzle</Button>
+                            </CardFooter>
+                        </Card>
                     </div>
                 </div>
-   
-                <div>
-         
-                </div>
-         
-            
             </>
         );
     }
