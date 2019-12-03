@@ -57,7 +57,7 @@ class home extends Component {
                                 </p>
                             </CardBody>
                             <CardFooter>
-                                <Button>Videoyu İzle</Button>
+                                <Button>Video İzle</Button>
                             </CardFooter>
                         </Card>
                     </div>
